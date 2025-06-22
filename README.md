@@ -4,8 +4,6 @@
 
 A modern, responsive React + Vite dashboard for interacting with the Behavioral Routine Optimizer backend. This interface allows users to make predictions, view results, submit feedback, and monitor the model status in real time.
 
-!\[Banner or Screenshot Placeholder]
-
 ---
 
 ## Table of Contents
@@ -50,15 +48,15 @@ This is the official frontend dashboard for the [Behavioral Routine Optimizer](h
 
 ```
 behavioral_frontend/
-├── public/                 # Static assets
+├── public/            # Static assets
 ├── src/
-│   ├── assets/             # Images, icons, etc.
-│   ├── components/         # Reusable UI components
-│   ├── pages/              # Main route views (Dashboard, Predict, Results, etc.)
-│   ├── hooks/              # API logic and custom hooks
-│   ├── styles.css          # Your custom CSS or Tailwind
-│   ├── App.tsx             # Main App wrapper
-│   └── main.tsx            # Entry point
+│   ├── assets/        # Images, icons, etc.
+│   ├── hooks/         # Reusable custom hooks
+│   ├── services/      # API logic 
+│   ├── Dashboard.jsx  # Dashboard File (Dashboard, Predict, Results, etc.)
+│   ├── styles.css     # Your custom CSS or Tailwind
+│   ├── App.tsx        # Main App wrapper
+│   └── main.tsx       # Entry point
 ├── index.html
 ├── package.json
 ├── postcss.config.js
@@ -155,5 +153,3 @@ Maintained by [**war\_riz**](https://github.com/war-riz).
 For support or collaboration, open an issue or contact me via GitHub.
 
 ---
-
-Let me know if you'd like a **markdown file download**, a **banner image**, or to set up GitHub Actions for deploying this.
